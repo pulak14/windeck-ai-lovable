@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Twitter, Linkedin, GitHub } from 'lucide-react';
+import { Twitter, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <span className="sr-only">GitHub</span>
-                <GitHub className="h-6 w-6" />
+                <Github className="h-6 w-6" />
               </a>
             </div>
           </div>
